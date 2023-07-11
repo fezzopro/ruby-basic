@@ -30,7 +30,7 @@ puts 1.class
 puts 1.990.class
 puts "string".class
 
-# constants in Ruby are writter in capital letters
+# constants in Ruby are written in capital letters
 
 A_CONSTANT = 3.14
 
