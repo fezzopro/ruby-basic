@@ -15,3 +15,31 @@ if is_male
 else
   puts "She's a female"
 end
+
+# Ruby unless Statement
+# Synthax
+# When it's a 1 line
+
+puts "She's a female" unless is_male
+# unless conditional [then]
+#    code
+# [else
+#    code ]
+# end
+
+# This translate to doing something unless the condition is true
+
+unless is_male
+  puts "He's a male"
+else
+  puts "She's a female"
+end
+
+x = 1
+unless x>=2
+  puts 'x is less than 2'
+ else
+  puts 'x is greater than 2'
+end
+
+# case Statement
