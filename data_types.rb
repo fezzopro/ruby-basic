@@ -50,5 +50,18 @@ puts 'That\'s right';
 puts('--------------Hashes-------------')
 hsh = colors = { "red" => 0xf00, "green" => 0x0f0, "blue" => 0x00f }
 hsh.each do |key, value|
-print key, " is ", value, "\n"
+  print key, " is ", value, "\n"
+end
+
+# Ruby program to illustrate the Arrays Data Type
+
+puts('--------------Arrays-------------')
+ary = [ "fred", 10, 3.14, "This is a string", "last element", ]
+ary.each do |i|
+  puts i
+end
+
+puts('--------------Arrays with index-------------')
+ary.each_with_index do |value, index|
+  puts "#{value} is at #{index}"
 end
