@@ -10,7 +10,7 @@
   
 =end
 # Ruby program to illustrate the Numbers Data Type
-
+puts('--------------Numbers-------------')
 # float type
 distance = 0.1
 
@@ -20,7 +20,7 @@ speed = distance / time
 puts "The average speed of a sprinter is #{speed} km/h"
 
 # Ruby program to illustrate the Boolean Data Type
-
+puts('--------------Boolean-------------')
 if true
   puts "It is True!"
 else
@@ -38,3 +38,9 @@ if 0
 else
   puts "0 is False!"
 end
+
+# Ruby program to illustrate the Strings Data Type
+puts('--------------String-------------')
+puts "String Data Type";
+puts 'escape using "\\"';
+puts 'That\'s right';
