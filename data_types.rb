@@ -9,6 +9,7 @@
   Symbols
   
 =end
+
 # Ruby program to illustrate the Numbers Data Type
 puts('--------------Numbers-------------')
 # float type
@@ -65,3 +66,12 @@ puts('--------------Arrays with index-------------')
 ary.each_with_index do |value, index|
   puts "#{value} is at #{index}"
 end
+
+# Ruby program to illustrate the Symbols Data Type
+
+puts('--------------Symbols-------------')
+domains = {:sk => "GeeksforGeeks", :no => "GFG", :hu => "Geeks"}
+
+puts domains[:sk]
+puts domains[:no]
+puts domains[:hu]
